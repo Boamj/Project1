@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+    
+}
+header{
+    background-image: url("https://img.freepik.com/free-vector/white-hexagonal-futuristic-simple-background-white-hexagon-banner-3d-honeycomb-geometric-pattern_541122-186.jpg?w=1380");
+    width:100%;
+    Height: 100px;
+}
+header h1{
+    text-align: center;
+    color: blue;
+    display: block;
+    z-index: 1;
+    background-color: transparent;
+    border:10px dashed red;
+    font-family: "Helvetica"
+}
+ul{
+    color: red;
+    z-index: 1;
+    background-color: transparent;
+    border: 20px;
+}
+li, a{
+    
+    width: 33%;
+    background-color: transparent;
+    text-align: center;
+    list-style-position: inside;
+    border: 1px solid blue;
+    display: inline-block;
+}
+article h1{
+    color: rebeccapurple;
+    display: inline-block;
+    position: relative
+    
+}
+article p{
+    background-color: white;
+    font-size: 15pt;
+}
+button{
+    color: red;
+}
